@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    
+    <form action="/users/register" method='post'>
+      <fieldset>
+      <legend>User signin</legend>
+      Username: <input type="text" name='username' placeholder='Enter Username' required><br>
+      Password: <input type="password" name='password' placeholder='Password' required><br>
+      <br>
+      <input type="submit" value="Signin">
+      </fieldset>
+    </form>
+
+    <% if(users){ %>
+    <ul>
+        <% for(var i=0; i<users.length; i++) { %>
+            <li>
+                <a href='/users/<%= users[i].id %>'>
+                  <%= users[i].username %>
+                </a>
+                <a href='/users/<%= users[i].id %>/destroy'>(Borrar)</a>
+                <br>
+            </li>
+        <% } %>
+    </ul>
+    <% } %>
+  </body>
+</html>
