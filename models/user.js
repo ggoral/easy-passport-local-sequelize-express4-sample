@@ -11,7 +11,8 @@ var sequelize = new Sequelize(config.database, config.username, config.password,
 
 // A helper to define the User model with username, password fields
 var User = passportLocalSequelize.defineUser(sequelize, {
-    favoriteColor: Sequelize.STRING
+    favoriteColor: Sequelize.STRING,
+    role: Sequelize.STRING
 });
 
 module.exports = User;

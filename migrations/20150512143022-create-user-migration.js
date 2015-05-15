@@ -19,6 +19,7 @@ module.exports = {
           hash: Sequelize.STRING,
           salt: Sequelize.STRING,
           favoriteColor: Sequelize.STRING,
+          role: Sequelize.STRING,
           resetPasswordKey: Sequelize.STRING,
           activationKey: Sequelize.STRING
       });
