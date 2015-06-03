@@ -1,5 +1,3 @@
-# easy-passport-local-sequelize-express4-sample
-
 # Welcome to easy-passport-local-sequelize-express4-sample
 
 In the absence of complete sample, here you have a very very very easy example authentication system.
@@ -26,8 +24,7 @@ In the absence of complete sample, here you have a very very very easy example a
 
 ## Thanks to: 
 
-https://github.com/mjhea0
-http://mherman.org/blog/2015/01/31/local-authentication-with-passport-and-express-4/#.VVTTIOS35C0
+https://github.com/mjhea0/passport-local-express4
 
 https://github.com/madhurjain/passport-local-sequelize
 
