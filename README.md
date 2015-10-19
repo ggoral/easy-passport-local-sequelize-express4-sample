@@ -1,6 +1,9 @@
-# Welcome to easy-passport-local-sequelize-express4-sample
+# Welcome to easy-passport-local-sequelize-express4-sample (DEPRECATED)
 
 In the absence of complete sample, here you have a very very very easy example authentication system.
+This sample is DEPRECATED. 
+
+Please take a look here https://github.com/ggoral/try-passport-with-sequelize
 
 ## Installation
 
